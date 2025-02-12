@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		4BF7C5AB2D5C2DEF00260B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF7C5922D5C2DEE00260B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF7C5992D5C2DEE00260B8A;
+			remoteInfo = ThreadLab;
+		};
+		4BF7C5B52D5C2DEF00260B8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BF7C5922D5C2DEE00260B8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BF7C5992D5C2DEE00260B8A;
+			remoteInfo = ThreadLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BF7C59A2D5C2DEE00260B8A /* ThreadLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF7C5AA2D5C2DEF00260B8A /* ThreadLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF7C5B42D5C2DEF00260B8A /* ThreadLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThreadLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4BF7C5CC2D5C2E4B00260B8A /* Exceptions for "ThreadLab" folder in "ThreadLabTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Fonts/Futura.ttc,
+			);
+			target = 4BF7C5A92D5C2DEF00260B8A /* ThreadLabTests */;
+		};
+		4BF7C5CD2D5C2E4B00260B8A /* Exceptions for "ThreadLab" folder in "ThreadLabUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Fonts/Futura.ttc,
+			);
+			target = 4BF7C5B32D5C2DEF00260B8A /* ThreadLabUITests */;
+		};
+		4BF7C5CF2D5C2F5F00260B8A /* Exceptions for "ThreadLab" folder in "ThreadLab" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4BF7C5992D5C2DEE00260B8A /* ThreadLab */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4BF7C59C2D5C2DEE00260B8A /* ThreadLab */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4BF7C5CF2D5C2F5F00260B8A /* Exceptions for "ThreadLab" folder in "ThreadLab" target */,
+				4BF7C5CC2D5C2E4B00260B8A /* Exceptions for "ThreadLab" folder in "ThreadLabTests" target */,
+				4BF7C5CD2D5C2E4B00260B8A /* Exceptions for "ThreadLab" folder in "ThreadLabUITests" target */,
+			);
+			path = ThreadLab;
+			sourceTree = "<group>";
+		};
+		4BF7C5AD2D5C2DEF00260B8A /* ThreadLabTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ThreadLabTests;
+			sourceTree = "<group>";
+		};
+		4BF7C5B72D5C2DEF00260B8A /* ThreadLabUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ThreadLabUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF7C5972D5C2DEE00260B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF7C5A72D5C2DEF00260B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF7C5B12D5C2DEF00260B8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF7C5912D5C2DEE00260B8A = {
+			isa = PBXGroup;
+			children = (
+				4BF7C59C2D5C2DEE00260B8A /* ThreadLab */,
+				4BF7C5AD2D5C2DEF00260B8A /* ThreadLabTests */,
+				4BF7C5B72D5C2DEF00260B8A /* ThreadLabUITests */,
+				4BF7C59B2D5C2DEE00260B8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF7C59B2D5C2DEE00260B8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF7C59A2D5C2DEE00260B8A /* ThreadLab.app */,
+				4BF7C5AA2D5C2DEF00260B8A /* ThreadLabTests.xctest */,
+				4BF7C5B42D5C2DEF00260B8A /* ThreadLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF7C5992D5C2DEE00260B8A /* ThreadLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF7C5BE2D5C2DEF00260B8A /* Build configuration list for PBXNativeTarget "ThreadLab" */;
+			buildPhases = (
+				4BF7C5962D5C2DEE00260B8A /* Sources */,
+				4BF7C5972D5C2DEE00260B8A /* Frameworks */,
+				4BF7C5982D5C2DEE00260B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4BF7C59C2D5C2DEE00260B8A /* ThreadLab */,
+			);
+			name = ThreadLab;
+			packageProductDependencies = (
+			);
+			productName = ThreadLab;
+			productReference = 4BF7C59A2D5C2DEE00260B8A /* ThreadLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BF7C5A92D5C2DEF00260B8A /* ThreadLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF7C5C12D5C2DEF00260B8A /* Build configuration list for PBXNativeTarget "ThreadLabTests" */;
+			buildPhases = (
+				4BF7C5A62D5C2DEF00260B8A /* Sources */,
+				4BF7C5A72D5C2DEF00260B8A /* Frameworks */,
+				4BF7C5A82D5C2DEF00260B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF7C5AC2D5C2DEF00260B8A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4BF7C5AD2D5C2DEF00260B8A /* ThreadLabTests */,
+			);
+			name = ThreadLabTests;
+			packageProductDependencies = (
+			);
+			productName = ThreadLabTests;
+			productReference = 4BF7C5AA2D5C2DEF00260B8A /* ThreadLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4BF7C5B32D5C2DEF00260B8A /* ThreadLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF7C5C42D5C2DEF00260B8A /* Build configuration list for PBXNativeTarget "ThreadLabUITests" */;
+			buildPhases = (
+				4BF7C5B02D5C2DEF00260B8A /* Sources */,
+				4BF7C5B12D5C2DEF00260B8A /* Frameworks */,
+				4BF7C5B22D5C2DEF00260B8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BF7C5B62D5C2DEF00260B8A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4BF7C5B72D5C2DEF00260B8A /* ThreadLabUITests */,
+			);
+			name = ThreadLabUITests;
+			packageProductDependencies = (
+			);
+			productName = ThreadLabUITests;
+			productReference = 4BF7C5B42D5C2DEF00260B8A /* ThreadLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF7C5922D5C2DEE00260B8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4BF7C5992D5C2DEE00260B8A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4BF7C5A92D5C2DEF00260B8A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4BF7C5992D5C2DEE00260B8A;
+					};
+					4BF7C5B32D5C2DEF00260B8A = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4BF7C5992D5C2DEE00260B8A;
+					};
+				};
+			};
+			buildConfigurationList = 4BF7C5952D5C2DEE00260B8A /* Build configuration list for PBXProject "ThreadLab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BF7C5912D5C2DEE00260B8A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4BF7C59B2D5C2DEE00260B8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF7C5992D5C2DEE00260B8A /* ThreadLab */,
+				4BF7C5A92D5C2DEF00260B8A /* ThreadLabTests */,
+				4BF7C5B32D5C2DEF00260B8A /* ThreadLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF7C5982D5C2DEE00260B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF7C5A82D5C2DEF00260B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF7C5B22D5C2DEF00260B8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF7C5962D5C2DEE00260B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF7C5A62D5C2DEF00260B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BF7C5B02D5C2DEF00260B8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BF7C5AC2D5C2DEF00260B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF7C5992D5C2DEE00260B8A /* ThreadLab */;
+			targetProxy = 4BF7C5AB2D5C2DEF00260B8A /* PBXContainerItemProxy */;
+		};
+		4BF7C5B62D5C2DEF00260B8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BF7C5992D5C2DEE00260B8A /* ThreadLab */;
+			targetProxy = 4BF7C5B52D5C2DEF00260B8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4BF7C5BC2D5C2DEF00260B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BF7C5BD2D5C2DEF00260B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BF7C5BF2D5C2DEF00260B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThreadLab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThreadLab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuskegee.threaders.ThreadLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BF7C5C02D5C2DEF00260B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ThreadLab/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThreadLab/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuskegee.threaders.ThreadLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4BF7C5C22D5C2DEF00260B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuskegee.threaders.ThreadLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreadLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThreadLab";
+			};
+			name = Debug;
+		};
+		4BF7C5C32D5C2DEF00260B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuskegee.threaders.ThreadLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThreadLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThreadLab";
+			};
+			name = Release;
+		};
+		4BF7C5C52D5C2DEF00260B8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuskegee.threaders.ThreadLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreadLab;
+			};
+			name = Debug;
+		};
+		4BF7C5C62D5C2DEF00260B8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuskegee.threaders.ThreadLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ThreadLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF7C5952D5C2DEE00260B8A /* Build configuration list for PBXProject "ThreadLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF7C5BC2D5C2DEF00260B8A /* Debug */,
+				4BF7C5BD2D5C2DEF00260B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF7C5BE2D5C2DEF00260B8A /* Build configuration list for PBXNativeTarget "ThreadLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF7C5BF2D5C2DEF00260B8A /* Debug */,
+				4BF7C5C02D5C2DEF00260B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF7C5C12D5C2DEF00260B8A /* Build configuration list for PBXNativeTarget "ThreadLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF7C5C22D5C2DEF00260B8A /* Debug */,
+				4BF7C5C32D5C2DEF00260B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF7C5C42D5C2DEF00260B8A /* Build configuration list for PBXNativeTarget "ThreadLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF7C5C52D5C2DEF00260B8A /* Debug */,
+				4BF7C5C62D5C2DEF00260B8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF7C5922D5C2DEE00260B8A /* Project object */;
+}
